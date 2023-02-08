@@ -1,6 +1,45 @@
 body{
     background-color: bisque;
+    text-align: center;
+    
 }
 html {
     scroll-behavior: smooth;
+  }
+  .table{
+
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td{
+    text-align: center;
+  }
+  .aj-0405{
+    color: blueviolet;
+    font-size: 30px;
+  }
+  .aj-04{
+    color: brown;
+    font-size: 30px;
+    font-style: italic;
+  }
+  .k1{
+    background-color: #74a4a4;
+    padding: 20px 20px;
+    border-radius: 50px;
+    color: black;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  .k1:hover{
+    background-color:black;
+    color: #74a4a4;
+    letter-spacing: 2px;
+  }
+  .k1:active{
+    background-color: rgb(110, 103, 116);
   }
