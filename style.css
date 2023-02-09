@@ -43,3 +43,8 @@ html {
   .k1:active{
     background-color: rgb(110, 103, 116);
   }
+  @media (max-width: 600px){
+    body{
+      background-color: rgb(223, 61, 145);
+    }
+  }
